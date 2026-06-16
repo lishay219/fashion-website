@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +7,13 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Poppins", sans-serif;;
     color: #1c1c1c;
     background: #fff;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -123,40 +125,42 @@ body {
 
 /* Section Titles */
 .section-title {
-    font-size: 28px;
-    text-align: left;
-    margin-bottom: 8px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #224F34;
+    margin-bottom: 37px;
+   
 }
-
 .section-subtitle {
-    text-align: left;
-    color: #777;
-    margin-bottom: 45px;
-    font-size: 14px;
+    text-align: center;
+    color: #224F34;
+    margin-bottom: 80px;
+    font-size: 22px;
 }
 
 /* Products Grid */
-.best-selling, .our-products, .designer-clothes, .feedback {
-    padding: 70px 0;
+.best-selling{
+    padding-top: 70px;
 }
-
+.our-products{
+    margin-bottom: 195px;
+}
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
 .product-card {
-    text-align: left;
+    text-align: center;
+    
 }
 
 .product-img {
-    width: 100%;
-    height: 280px;
-    background: #f5f5f5;
-    border-radius: 8px;
-    margin-bottom: 12px;
+    background: #C2EFD4;
+    border-radius: 5px;
+    margin-bottom: 51px;
 }
 
 .product-tags {
@@ -165,59 +169,85 @@ body {
     left: 12px;
 }
 
-.tag {
-    display: inline-block;
-    padding: 5px 10px;
-    font-size: 11px;
-    border-radius: 3px;
-    color: white;
-    font-weight: 600;
-}
-
-.tag.new {
-    background: #1B5E20;
-}
-
-.tag.hot {
-    background: #D32F2F;
-}
-
-.product-card {
-    position: relative;
-}
-
 .product-name {
-    font-size: 15px;
-    margin-bottom: 4px;
-    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.see{
+    padding: 16px 55px;
+    border: 1px solid;
+    border-color: #224F34;
+    border-radius: 3px;
+    text-align: center;
+     background: #fff;
+    font-size:14px ;
+    font-weight: 400;
+    color: #224F34;
+    cursor: pointer;
+}
+.see:active{
+    background-color: #a1d871;
 }
 
 .product-price {
     color: #1c1c1c;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 /* Product Categories */
+.our-products{
+    margin-top: 185px;
+}
+.section-title{
+font-size: 50px;
+font-weight: 600;
+color: #224F34;
+margin-bottom: 70px;
+
+}
 .product-categories {
     display: flex;
-    gap: 25px;
-    margin-bottom: 40px;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 83px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #454545;
 }
 
 .category {
-    padding: 8px 22px;
-    border-radius: 0;
     cursor: pointer;
-    font-weight: 500;
     transition: all 0.3s;
-    font-size: 14px;
-    color: #666;
 }
-
 .category.active, .category:hover {
     color: #1B5E20;
     border-bottom: 2px solid #1B5E20;
 }
+.division1{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+.division2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+.product-img2{
+    background-color:#fff; 
+    margin-bottom: 36px;
+}
+
+    
 
 /* Exclusive Offer */
 .exclusive-offer {
@@ -292,10 +322,22 @@ body {
 }
 
 /* Designers Section */
+.designer-clothes{
+    margin-top: 218px;
+}
+.section-subtitle2{
+    margin-top: 51px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #224F34;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
 .designers-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 44px;
 }
 
 .designer-card {
@@ -303,36 +345,39 @@ body {
 }
 
 .designer-img {
-    width: 220px;
-    height: 280px;
     background: #f5f5f5;
-    border-radius: 8px;
-    margin: 0 auto 15px;
+    margin: 0 auto 25px;
 }
-
 .designer-name {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 5px;
     font-weight: 600;
+    color: #373737;
+    cursor: pointer;
 }
 
 .designer-desc {
-    color: #777;
-    font-size: 14px;
+    color: #373737;
+    font-size: 22px;
+    font-weight: 400;
+
 }
 
 /* Feedback Section */
+.feedback{
+    margin-top: 249px;
+}
 .feedback-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-bottom: 30px;
+    gap: 37px;
+    margin-bottom: 125px;
 }
 
 .feedback-card {
-    padding: 30px 25px;
+    padding: 20px 15px;
     background: #f8f8f8;
-    border-radius: 8px;
+    border-radius: 3px;
     text-align: left;
 }
 
@@ -341,44 +386,61 @@ body {
 }
 
 .stars {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 22px;
+    color: #224F34;
+    font-weight: 400;
 }
 
 .feedback-name {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    color: #224F34;
 }
 
 .feedback-text {
-    color: #666;
-    font-size: 14px;
+    color: #6F6F6F;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .feedback-nav {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 51px;
 }
-
-.dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #ddd;
-    cursor: pointer;
+.slider-buttons{
+    border-radius: 8px;
+     display: flex;
+    justify-content: center;
+    gap: 51px;
 }
-
-.dot.active {
-    background: #1B5E20;
+.nav-btn{
+    padding: 13px 17px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #224F34;
 }
-
+.prev{
+     border: 1px solid #224F34;
+      background-color: #FFFFFF;
+}
+.next{
+    background-color: #C2EFD4;
+    border: none;
+}
+.nav-btn:hover{
+    background-color: rgb(101, 186, 201);
+}
 /* Footer Styles */
 .footer {
+    margin-top: 193px;
     background: #1B5E20;
     color: white;
-    padding: 60px 0 25px;
+    padding: 80px 174px;
 }
 
 .footer-top {
@@ -546,5 +608,3 @@ body {
     .offer-buttons {
         flex-direction: column;
     }
-}
-
