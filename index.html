@@ -1,413 +1,395 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ritw - Fashion Store</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header -->
-    <main class="header">
-      <header>
-        <nav class="navbar">
-          <div class="logo"><img src="./images/rivo.svg" alt="logo" /></div>
 
-          <ul class="nav-links">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritw - Fashion Store</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
 
-          <div class="nav-right">
-            <span class="cart"
-              ><i class="fa-solid fa-bag-shopping" style="color: #224f34"></i
-            ></span>
-            <button class="login-btn">LOGIN</button>
-          </div>
-        </nav>
-      </header>
+<body>
+  <main class="header">
+    <header>
+      <nav class="navbar">
+        <div class="logo"><img src="./images/rivo.svg" alt="logo" /></div>
 
-      <section class="hero">
-        <div class="hero-content">
-          <h1>
-            Discover and <br />
-            Find Your Own <br />
-            Fashion!
-          </h1>
+        <ul class="nav-links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
 
-          <p>
-            Explore our curated collection of stylish clothing and accessories
-            tailored to your unique taste.
-          </p>
-
-          <button class="explore-btn">EXPLORE NOW</button>
+        <div class="nav-right">
+          <span class="cart"><i class="fa-solid fa-bag-shopping" style="color: #224f34"></i></span>
+          <button class="login-btn">LOGIN</button>
         </div>
+      </nav>
+    </header>
 
-        <div class="hero-image">
-          <div class="image-box">
-            <div class="dots top">
-              <span></span><span></span><span></span><span></span> <span></span
-              ><span></span><span></span><span></span> <span></span><span></span
-              ><span></span><span></span> <span></span><span></span><span></span
-              ><span></span>
-            </div>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          Discover and <br />
+          Find Your Own <br />
+          Fashion!
+        </h1>
 
-            <img src="./images/mask-group.svg" alt="Fashion Model" />
-
-            <div class="dots bottom">
-              <span></span><span></span><span></span><span></span> <span></span
-              ><span></span><span></span><span></span> <span></span><span></span
-              ><span></span><span></span> <span></span><span></span><span></span
-              ><span></span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Best Selling Section -->
-    <section class="best-selling">
-      <div class="container">
-        <h2>Best selling</h2>
-        <p class="subtitle">
-          Get in on the trend with our curated selection of best-selling styles.
+        <p>
+          Explore our curated collection of stylish clothing and accessories
+          tailored to your unique taste.
         </p>
 
-        <div class="products">
-          <div class="card">
-            <div class="image-boxs">
-              <img src="images/regularfit.svg" alt="" />
-            </div>
-
-            <h3>Regular Fit Long Sleeve Top</h3>
-
-            <div class="info">
-              <span>$38.99</span>
-              <span class="divider"></span>
-              <span
-                >5.0
-                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59)"></i
-              ></span>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-boxs">
-              <img src="images/blackcrop.svg" alt="" />
-            </div>
-
-            <h3>Black Crop Tailored Jacket</h3>
-
-            <div class="info">
-              <span>$62.99</span>
-              <span class="divider"></span>
-              <span
-                >4.9
-                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59)"></i
-              ></span>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-boxs">
-              <img src="images/texturedsunset.png" alt="" />
-            </div>
-
-            <h3>Textured Sunset Shirt</h3>
-
-            <div class="info">
-              <span>$49.99</span>
-              <span class="divider"></span>
-              <span
-                >5.0
-                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59)"></i
-              ></span>
-            </div>
-          </div>
-        </div>
-
-        <button class="see-all">See all →</button>
+        <button class="explore-btn">EXPLORE NOW</button>
       </div>
-    </section>
 
-    <!-- Our Products Section -->
-    <section class="our-products">
-      <div class="container">
-        <h2 class="section-title">Our products</h2>
-        <div class="product-categories">
-          <span class="category">SALE</span>
-          <span class="category active">HOT</span>
-          <span class="category">NEW ARRIVALS</span>
-          <span class="category">ACCESSORIES</span>
-        </div>
-        <div class="products-grid2">
-          <div class="division1">
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/spreadcollarshirt.svg" />
-              </div>
-              <h4 class="product-name">Spread Collar Shirt</h4>
-              <p class="product-price">
-                $48.99ㅤ|ㅤ5.0<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/whitesolidformatshirt.svg" />
-              </div>
-              <h4 class="product-name">White Solid Formal Shirt</h4>
-              <p class="product-price">
-                $39.00ㅤ|ㅤ4.9<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/Shine On Me Blouse.png" />
-              </div>
-              <h4 class="product-name">Shine On Me Blouse</h4>
-              <p class="product-price">
-                $42.00ㅤ|ㅤ4.8<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/Gray Solid Padded Jacket.svg" />
-              </div>
-              <h4 class="product-name">Gray Solid Padded Jacket</h4>
-              <p class="product-price">
-                $32.00ㅤ|ㅤ4.7<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
+      <div class="hero-image">
+        <div class="image-box">
+          <div class="dots top">
+            <span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span>
           </div>
-          <div class="division2">
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/Printed Loose T-shirt.svg" />
-              </div>
-              <h4 class="product-name">Printed Loose T-shirt</h4>
-              <p class="product-price">
-                $39.00ㅤ|ㅤ5.0<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/Summer Wind Crop Shirt.svg" />
-              </div>
-              <h4 class="product-name">Summer Wind Crop Shirt</h4>
-              <p class="product-price">
-                $39.00ㅤ|ㅤ4.7<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
-            <div class="product-card">
-              <div class="product-img2">
-                <img src="./images/Tailored Jacket.svg" />
-              </div>
-              <h4 class="product-name">Elegant Handbag</h4>
-              <p class="product-price">
-                $46.00ㅤ|ㅤ4.9<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
-            <div class="product-card">
-              <div class="product-img">
-                <img src="./images/Solid Round Neck T-shirt.svg" />
-              </div>
-              <h4 class="product-name">Solid Round Neck T-shirt</h4>
-              <p class="product-price">
-                $36.00ㅤ|ㅤ5.0<span style="color: gold">&#9733;</span>
-              </p>
-            </div>
+
+          <img src="./images/mask-group.svg" alt="Fashion Model" />
+
+          <div class="dots bottom">
+            <span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span>
           </div>
         </div>
       </div>
     </section>
+  </main>
+  <section class="best-selling">
+    <div class="container">
+      <h2>Best selling</h2>
+      <p class="subtitle">
+        Get in on the trend with our curated selection of best-selling styles.
+      </p>
 
-    <!-- Exclusive Offer -->
-    <section class="offer-section">
-      <div class="offer-container">
-        <div class="offer-image">
-          <img src="images/excited-white-girl.svg" alt="Fashion Model" />
+      <div class="products">
+        <div class="card">
+          <div class="image-boxs">
+            <img src="images/regularfit.svg" alt="" />
+          </div>
 
-          <div class="dot">
-            <span></span><span></span><span></span><span></span> <span></span
-            ><span></span><span></span><span></span> <span></span><span></span
-            ><span></span><span></span> <span></span><span></span><span></span
-            ><span></span>
+          <h3>Regular Fit Long Sleeve Top</h3>
+
+          <div class="info">
+            <span>$38.99</span>
+            <span class="divider"></span>
+            <span>5.0
+              <i class="fa-solid fa-star" style="color: rgb(255, 212, 59)"></i></span>
           </div>
         </div>
 
-        <div class="offer-content">
-          <h2>Exclusive offer</h2>
-
-          <p>
-            Unlock the ultimate style upgrade with our exclusive offer! Enjoy
-            savings of up to 40% off on our latest New Arrivals.
-          </p>
-
-          <div class="countdown">
-            <div class="time-box">
-              <h3>06</h3>
-              <span>Days</span>
-            </div>
-
-            <div class="time-box">
-              <h3>18</h3>
-              <span>Hours</span>
-            </div>
-
-            <div class="time-box">
-              <h3>48</h3>
-              <span>Min</span>
-            </div>
+        <div class="card">
+          <div class="image-boxs">
+            <img src="images/blackcrop.svg" alt="" />
           </div>
 
-          <button>BUY NOW</button>
+          <h3>Black Crop Tailored Jacket</h3>
+
+          <div class="info">
+            <span>$62.99</span>
+            <span class="divider"></span>
+            <span>4.9
+              <i class="fa-solid fa-star" style="color: rgb(255, 212, 59)"></i></span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image-boxs">
+            <img src="images/texturedsunset.png" alt="" />
+          </div>
+
+          <h3>Textured Sunset Shirt</h3>
+
+          <div class="info">
+            <span>$49.99</span>
+            <span class="divider"></span>
+            <span>5.0
+              <i class="fa-solid fa-star" style="color: rgb(255, 212, 59)"></i></span>
+          </div>
         </div>
       </div>
-    </section>
 
-    <!-- Designer Clothes -->
-    <section class="designer-clothes">
-      <div class="container">
-        <h2 class="section-title">Designer Clothes For You</h2>
-        <p class="section-subtitle2">
-          Immerse yourself in the world of luxury fashion with our meticulously
-          crafted designer clothes!
+      <button class="see-all">See all →</button>
+    </div>
+  </section>
+  <section class="products-section">
+    <div class="container">
+      <h2>Our products</h2>
+
+      <div class="tabs">
+        <a href="#">SALE</a>
+        <a href="#" class="active">HOT</a>
+        <a href="#">NEW ARRIVALS</a>
+        <a href="#">ACCESSORIES</a>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product Card -->
+        <div class="product-card">
+          <img src="images/spread-collar-shirt.svg" alt="" />
+          <h3>Spread Collar Shirt</h3>
+          <div class="product-info">
+            <span>$48.99</span>
+            <span class="divider"></span>
+            <span>5.0 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/white-solid-format-shirt.svg" alt="" />
+          <h3>White Solid Formal Shirt</h3>
+          <div class="product-info">
+            <span>$39.00</span>
+            <span class="divider"></span>
+            <span>4.9 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/shine-on-me-blouse.png" alt="" />
+          <h3>Shine On Me Blouse</h3>
+          <div class="product-info">
+            <span>$42.99</span>
+            <span class="divider"></span>
+            <span>4.8 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/gray-solid-padded-jacket.svg" alt="" />
+          <h3>Gray Solid Padded Jacket</h3>
+          <div class="product-info">
+            <span>$32.99</span>
+            <span class="divider"></span>
+            <span>4.7 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/printed-loose-t-shirt.svg" alt="" />
+          <h3>Printed Loose T-shirt</h3>
+          <div class="product-info">
+            <span>$39.99</span>
+            <span class="divider"></span>
+            <span>5.0 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/spreadcollarshirt.svg" alt="" />
+          <h3>Summer Wind Crop Shirt</h3>
+          <div class="product-info">
+            <span>$39.95</span>
+            <span class="divider"></span>
+            <span>4.7 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/tailored-jacket.svg" alt="" />
+          <h3>Tailored Jacket</h3>
+          <div class="product-info">
+            <span>$46.00</span>
+            <span class="divider"></span>
+            <span>4.9 ⭐</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/solid-round-neck-t-shirt.svg" alt="" />
+          <h3>Solid Round Neck T-shirt</h3>
+          <div class="product-info">
+            <span>$36.00</span>
+            <span class="divider"></span>
+            <span>5.0 ⭐</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer-section">
+    <div class="offer-container">
+      <div class="offer-image">
+        <img src="images/excited-white-girl.svg" alt="Fashion Model" />
+
+        <div class="dot">
+          <span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="offer-content">
+        <h2>Exclusive offer</h2>
+
+        <p>
+          Unlock the ultimate style upgrade with our exclusive offer! Enjoy
+          savings of up to 40% off on our latest New Arrivals.
         </p>
-        <div class="designers-grid">
-          <div class="designer-card">
-            <div class="designer-img">
-              <img src="./images/accessories.svg" />
-            </div>
-            <h4 class="designer-name">Accessories</h4>
-            <p class="designer-desc">
-              Complete your ensemble with designer accessories such as handbags,
-              scarves, belts, and hats.
-            </p>
+
+        <div class="countdown">
+          <div class="time-box">
+            <h3>06</h3>
+            <span>Days</span>
           </div>
-          <div class="designer-card">
-            <div class="designer-img">
-              <img src="./images/dresses.svg" />
-            </div>
-            <h4 class="designer-name">Dresses</h4>
-            <p class="designer-desc">
-              Explore a stunning range of designer dresses, including evening
-              gowns and chic day dresses.
-            </p>
+
+          <div class="time-box">
+            <h3>18</h3>
+            <span>Hours</span>
           </div>
-          <div class="designer-card">
-            <div class="designer-img">
-              <img src="./images/outerwear.svg" />
-            </div>
-            <h4 class="designer-name">Outerwear</h4>
-            <p class="designer-desc">
-              Browse luxurious designer coats, jackets, and blazers to stay
-              stylishly warm during colder seasons.
-            </p>
+
+          <div class="time-box">
+            <h3>48</h3>
+            <span>Min</span>
           </div>
+        </div>
+
+        <button>BUY NOW</button>
+      </div>
+    </div>
+  </section>
+  <section class="fashion-section">
+    <h1>Designer Clothes For You</h1>
+
+    <p class="subtitle">
+      Immerse yourself in the world of luxury fashion with our meticulously
+      crafted designer clothes!
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <img src="images/accessories.svg" alt="Accessories" />
+        <h2>Accessories</h2>
+        <p>
+          Complete your ensemble with designer accessories such as handbags,
+          scarves, belts, and hats.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="images/dresses.svg" alt="Dresses" />
+        <h2>Dresses</h2>
+        <p>
+          Explore a stunning range of designer dresses, including evening
+          gowns and chic day dresses.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="images/outerwear.svg" alt="Outerwear" />
+        <h2>Outerwear</h2>
+        <p>
+          Browse luxurious designer coats, jackets, and blazers to stay
+          stylishly warm during colder seasons.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="feedback">
+    <h2>Feedback Corner</h2>
+
+    <div class="feedback-container">
+
+      <div class="card">
+        <span class="quote"><i class="fa-solid fa-quote-right fa-flip-both"></i></span>
+        <h3>Emily Wilson</h3>
+        <p>
+          The customer experience was exceptional from start to finish.
+          The website is user-friendly, the checkout process was smooth,
+          and the clothes I ordered fit perfectly.
+        </p>
+      </div>
+
+      <div class="card active">
+        <span class="quote"><i class="fa-solid fa-quote-right fa-flip-both"></i></span>
+        <h3>Sarah Thompson</h3>
+        <p>
+          I absolutely love the quality and style of the clothing I
+          purchased from this website. Customer service was outstanding.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="quote"><i class="fa-solid fa-quote-right fa-flip-both"></i></span>
+        <h3>Olivia Martinez</h3>
+        <p>
+          I had a great experience shopping on this website.
+          The clothes I bought are fashionable and comfortable.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="slider-buttons">
+      <button class="nav-btn prev"><i class="fa-solid fa-angle-left"></i></button>
+
+      <button class="nav-btn next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="main-footer">
+      <div class="footer-container">
+
+        <div class="footer-logo">
+          <img src="images/rivo.png" alt="logo" />
+          <p>Social Media</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>SHOP</h3>
+          <a href="#">Products</a>
+          <a href="#">Overview</a>
+          <a href="#">Pricing</a>
+          <a href="#">Releases</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>COMPANY</h3>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">News</a>
+          <a href="#">Support</a>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>STAY UP TO DATE</h3>
+
+          <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="line"></div>
+
+        <div class="footer-bottom-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Cookies</a>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
+</body>
 
-    <!-- Feedback Corner -->
-    <section class="feedback">
-      <div class="container">
-        <h2 class="section-title">Feedback Corner</h2>
-        <div class="feedback-grid">
-          <div class="feedback-card">
-            <div class="stars">“</div>
-            <h4 class="feedback-name">Emily Wailson</h4>
-            <p class="feedback-text">
-              "The customer experience was exceptional from start to finish. The
-              website is user-friendly, the checkout process was smooth, and the
-              clothes I ordered fit perfectly. I'm beyond satisfied!"
-            </p>
-          </div>
-          <div class="feedback-card highlight">
-            <div class="stars">“</div>
-            <h4 class="feedback-name">Sarah Thompson</h4>
-            <p class="feedback-text">
-              "I absolutely love the quality and style of the clothing I
-              purchased from this website. customer service was outstanding, and
-              I received my order quickly. Highly recommended!"
-            </p>
-          </div>
-          <div class="feedback-card">
-            <div class="stars">“</div>
-            <h4 class="feedback-name">Olivia Martinez</h4>
-            <p class="feedback-text">
-              "I had a great experience shopping on this website. The clothes I
-              bought are fashionable and comfortable. Highly satisfied!"
-            </p>
-          </div>
-        </div>
-        <div class="slider-buttons">
-          <button class="nav-btn prev">&#10094;</button>
-
-          <button class="nav-btn next">&#10095;</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-top">
-          <div class="footer-col">
-            <h4 class="footer-logo">Ritw</h4>
-            <p class="footer-desc">
-              Your one-stop destination for all fashion needs.
-            </p>
-          </div>
-          <div class="footer-col">
-            <h4 class="footer-title">Quick link</h4>
-            <ul class="footer-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4 class="footer-title">Company</h4>
-            <ul class="footer-links">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Privacy policy</a></li>
-              <li><a href="#">Terms of use</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4 class="footer-title">Join our newsletter</h4>
-            <div class="newsletter">
-              <input
-                type="email"
-                placeholder="Email address"
-                class="newsletter-input"
-              />
-              <button class="btn btn-newsletter">Subscribe</button>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p class="footer-copy">&copy; 2025 Ritw. All rights reserved.</p>
-          <div class="footer-social">
-            <span class="social-icon">✕</span>
-            <span class="social-icon">📘</span>
-            <span class="social-icon">📷</span>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://kit.fontawesome.com/ca86787c55.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
