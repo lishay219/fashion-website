@@ -694,6 +694,7 @@ max-width: 1200px;
   text-decoration: none;
 }
 
+
 /* Tablet */
 @media (max-width: 900px) {
   .cards {
